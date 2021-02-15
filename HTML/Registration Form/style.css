@@ -1,0 +1,44 @@
+.paragraph {
+font-size: small;
+text-align: left;
+color: rgb(97, 169, 202);
+font-variant-caps: titling-caps;
+}
+
+.body {
+    text-align: left;
+}
+
+.h1 {
+    text-align: left;
+    color: rgb(60,76,91);
+}
+
+.h6 {
+    text-align: left;
+    color: rgb(60,76,91);
+}
+
+.html {
+border-width: inherit;
+font-family: Arial;
+}
+
+.city {
+    text-align: left;
+}
+
+.survey {
+    text-align: left;
+}
+
+.tr {
+    text-align: left;
+    table-layout: left;
+    margin: auto;
+    border: 1px solid black
+}
+
+.div {
+    text-align: left;
+}
