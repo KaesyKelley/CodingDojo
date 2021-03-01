@@ -1,5 +1,5 @@
 // 1-255
-function get_array(){
+function countingArr(){
     var arr = [];
     for(var i = 1; i < 256; i++){
         arr.push(i);
@@ -14,7 +14,7 @@ function sum_even_numbers(){
     var sum = 0;
     for(var i = 1; i < 1001; i++){
         if(i % 2 === 0){
-            sum += i;
+            sum = sum + i;
         }
     }
     return sum; 
@@ -100,4 +100,47 @@ function squareVal(arr) {
 }
 
 // Negatives
+function neg_num_swap(arr){
+    for(var i = 0; i < arr.length; i++){
+        id (arr[i] < 0); {
+            arr[i] = 0
+        }
+    }
+}
 
+//Max/Min/Average
+function maxMinAvg(arr){
+    var max = arr[0];
+    var min = arr[0];
+    var sum = arr[0];
+
+    for (var i =1; i < arr.length; i++) {
+        if(arr[i] > max) {
+            max = arr[i];
+        }
+        if(arr[i]< min){
+            min = arr[i];
+        }
+        sum = sum + arr[i];
+    }
+    var avg = sum / arr.length;
+    var arrnew = [max, min, avg];
+    return arrnew;
+}
+
+//swap values
+function swap(arr) {
+    var temp = arr[0];
+    arr[0] = arr[arr.length - 1];
+    arr[arr/length - 1] = temp;
+    return arr;
+}
+
+//Number to String
+function noNeg(arr){
+    for (var i = 0; i < arr.length; i++) 
+    if (arr[i] < 0){
+        arr[i] = 0
+    }
+    return arr;
+}
