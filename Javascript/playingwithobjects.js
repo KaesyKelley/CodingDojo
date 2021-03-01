@@ -15,5 +15,7 @@ user = {
 console.log(user.name[0]);
 // log name of first object
 
-
+for(var i=0; i < user.length; i++){
+    console.log(user[i]name,"-",user[i]age);
+}
 
