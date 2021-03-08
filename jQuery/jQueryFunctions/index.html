@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Functions</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $('h1').click(function(){
+                $('h1').css('background-color','red')();
+            }
+
+            $('h1').click(function(){
+                $('h1').hide();
+            })
+
+            $('h1').click(function(){
+                $('h1').show();
+        })
+
+
+    </script>
+    <style type="text/css">
+    .red{
+        color:red;
+    }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h1>AddClass</h1>
+    <p>Click the button to add class 'red' to this paragraph</p>
+    <button class ="click">AddClass</button>
+       
+
+    </fieldset>
+    </form>
+    
+</body>
+
+</html>

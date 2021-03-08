@@ -142,5 +142,5 @@ function noNeg(arr){
     if (arr[i] < 0){
         arr[i] = 0
     }
-    return arr;
+    return arr; 
 }
